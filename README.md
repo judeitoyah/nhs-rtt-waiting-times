@@ -27,6 +27,18 @@ This project analyses NHS Referral to Treatment (RTT) waiting times for December
   - Week‑band waiting time fields (e.g. `Gt 00 To 01 Weeks SUM 1`, …, `Gt 104 Weeks SUM 1`)
   - Derived fields: `Total`, `Over_18_Weeks`, `Over_52_Weeks`, `RTT_18_Week_Performance`
 
+
+### Data Access
+
+The raw NHS RTT dataset is not included in this repository due to size and licensing restrictions.  
+You can download the official dataset directly from NHS England:
+
+https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/
+
+After downloading, place the CSV file into:
+
+data/raw/
+
 ---
 
 ## Workflow Overview
